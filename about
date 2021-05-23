@@ -1,0 +1,25 @@
+##UTILIZATION AWARE IN BIKE SHARING SYSTEMS
+
+#INTRODUCTION
+The rapid development of bike-sharing systems has brought people enormous convenience during the past decade. On the other hand, high transport flexibility gives rise to problems 
+for both users and operators. For users, dynamic distribution of shared bikes caused by uneven user demand often leads to the check in or check out service unavailable at some 
+stations. For operators, unbalanced bike usage comes with more bike broken and growing maintenance cost. In this project, we consider to enhance user experience and rebalance 
+bicycle utilization by directing users to different stations with a higher success rate of rental and return. 
+
+We devise a trip advisor that recommends bike check-in and check-out stations with joint consideration of service quality and bicycle utilization. To ensure service quality, 
+we firstly predict the user demand of each station to obtain the success rate of rental and return in the future. To rebalance bike usage, from historical data, we identified that 
+biased bike usage is rooted from circumscribed bicycle circulation among few active stations. Therefore, with defined station activeness, we optimize the bike circulation by 
+leading users to shift bikes between highly active stations and inactive ones. This way, the bikes which were not so much in use before will come into use now. 
+
+#EXISTING SYSTEM
+At present, operators perform bike redistribution based on monitor video and user complaints. This method has exposed serious lag. It is usually when service unavailable events
+occur that operators start to give some scheduling instructions. When the vehicle arrives, service unavailable events may have passed for some time, which makes it difficult to 
+meet the needs of users at rush hour.
+
+#PROPOSED SYSTEM
+The proposed system will predict the pattern in which the bike rides are happening. Using machine learning algorithms such as decision tree, random forest and linear 
+regression we predict the future demand of each station. This will help the operator to place more bikes in the peak time and they can maintain their business in an 
+efficient manner. Using euclidean distance formula, we also identify the nearest best stations for rental and return of bicycles.
+
+As the results are accurate, We can create a wealthy system by reducing the loss that has been bared by the bike sharing companies till now. And enhanced user experience will 
+promote a healthy habit among huge number of people.
